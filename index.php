@@ -223,7 +223,7 @@ if(isset($_POST['update']))
                <input type="file" name="profilepic" placeholder="Profile pic"  value="<?php echo @$profilepic;?>"><br><br><br><br>
             <div>
                 <!-- Input For Add Values To Database-->
-                <input type="submit" name="insert" value="Insert">
+                <input type="submit" name="insert" value="Create">
                 
                 <!-- Input For Edit Values -->
                 <input type="submit" name="update" value="Update">
